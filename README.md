@@ -46,5 +46,5 @@ source virtual_env/bin/activate
 ```
 - Run Python script
 ```
-nohup python generate_radet_v2.py
+nohup python generate_radet_v2.py &
 ```
