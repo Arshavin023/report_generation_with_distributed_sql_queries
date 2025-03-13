@@ -1,6 +1,6 @@
 # Report Generation with parallel execution of Stored Procedures 
 ## Overview
-This repository contains several stored procedures created to accept parameters and execute in a parallel manner on partitioned tanles.
+This repository contains several stored procedures created to accept parameters and execute in a parallel manner on partitioned tables.
 
 # Table of Contents
 - [Introduction](#introduction)
@@ -10,7 +10,8 @@ This repository contains several stored procedures created to accept parameters 
 
 
 ## Introduction <a name="introduction"></a>
-The report generation process consist of 33 procedures and a Python Script. The Python script connects to a PostgreSQL database and utilize Python's multi-threading capabilities to execute 31 of the procedures concurrently and the remaining two procedures sequentially.
+The report generation process consist of procedures and a Python Script. 
+The Python script connects to a PostgreSQL database and utilize Python's multi-threading capabilities to execute some of the procedures concurrently and the remaining sequentially.
 
 ## Prerequisites <a name="prerequisites"></a>
 Before running this report generation process, the following prerequisite must be meant.
